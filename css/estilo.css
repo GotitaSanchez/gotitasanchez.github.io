@@ -1,12 +1,16 @@
-<!DOCTYPE html 
+<!DOCTYPE html>
 <html>
 <head>
-  <title>Estilo</title>
-  <style type="text/css">
-  body {
-    color: purple;
-    background-color: #d8da3d }
-  </style>
+<style>
+body {background-color: powderblue;}
+h1   {color: #7d0d7e}
+p    {color: #08007e}
+</style>
 </head>
-
 <body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
