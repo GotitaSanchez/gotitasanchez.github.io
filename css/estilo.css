@@ -1,14 +1,30 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-body {background-color: powderblue;}
-h1   {color: #7d0d7e}
-p    {color: #08007e}
-</style>
-</head>
-<body>
 
+h1, h2
+{
+    color: #7d0d7e;
+    text-align: center;
+}
+p    
+{
+    color: #08007e;
+    text-align: center;
+}
 
-</body>
-</html>
+body 
+{
+    background-color:#cdd9ff;
+    text-align: center;
+}
+
+#title {
+    color: #c0148c;
+}
+
+#mariecurie {
+    height: 200px;
+    margin: 0 auto;
+}
+.big-header
+{
+
+}
