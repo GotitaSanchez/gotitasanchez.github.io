@@ -1,8 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gafata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300&family=Gafata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+.pagetitle {
+    display: inline-block;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.navigation{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    width: 80%;
+    float: left;
+    text-align: right;
+}
+.navigation>a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    
+    /*links behavior*/
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: palevioletred;
+}
 
-h1, h2
-{
-    color: #7d0d7e;
-    text-align: center;
+.logo{
+    width: 20%;
+    float: left;
+}
+.topnav {
+    text-align: right;
 }
 p    
 {
@@ -12,19 +50,120 @@ p
 
 body 
 {
-    background-color:#cdd9ff;
+    background-color:#000000;
     text-align: center;
 }
 
-#title {
+#title 
+{
     color: #c0148c;
+    text-transform: uppercase;
 }
 
-#mariecurie {
-    height: 200px;
-    margin: 0 auto;
-}
 .big-header
 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.grid{
+    display: grid ;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0;
+    justify-content: center;
+    grid-gap: 5px;
+    /* border: 10px solid seashell;  */
 
+}
+.grid > a > div, .grid > div {
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    height: 230px;
+    border: 5px solid #000000;
+    border-color: white;
+    filter: grayscale(100%);
+    position: relative;    
+}
+
+
+
+.grid > a> div >div, .grid > div > div {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    background-color: black;
+    color: blanchedalmond;
+    font-family:'Hammersmith One',sans-serif ;
+}
+
+.grid > a > div:hover >div, .grid > div:hover >div {
+    display: none;
+}
+.grid > a > div:hover, .grid > div:hover {
+    filter: none;
+}
+
+#adalovelace {
+    background-image: url('../img/Women/adalovelace.png');
+}
+
+#adalovelace:hover {
+    background-image: url('../img/Women/adalovelace-info.png')
+}
+
+#mariecurie  {
+    background-image: url('../img/Women/MarieCurie.png');
+}
+#mariecurie:hover  {
+    background-image: url('../img/Women/mariecurie-info.png');
+}
+#lisemeitner {
+    background-image: url('../img/Women/lisemeitner.png');
+}
+#lisemeitner:hover {
+    background-image: url('../img/Women/lisemeitner-info.png');
+}
+#janakiammal {
+    background-image: url('../img/Women/janakiammal.png');
+}
+#janakiammal:hover {
+    background-image: url('../img/Women/janakiammal-info.png');
+}
+
+#margaretmead {
+    background-image: url('../img/Women/margaretmead.png');
+}
+#margaretmead:hover {
+    background-image: url('../img/Women/margaretmead-info.png');
+}
+#chienshiung {
+    background-image: url('../img/Women/chien-shiung.png');
+}
+#chienshiung:hover {
+    background-image: url('../img/Women/chien-shiung-info.png');
+}
+#rosalindfranklin {
+    background-image: url('../img/Women/rosalindfranklin.png');
+}
+#rosalindfranklin:hover {
+    background-image: url('../img/Women/rosalindfranklin-info.png');   
+}
+#verarubin {
+    background-image: url('../img/Women/verarubin.png');
+}
+#verarubin:hover {
+    background-image: url('../img/Women/verarubin-info.png');
+}
+#wongstaal {
+    background-image: url('../img/Women/wongstaal.png');
+}
+#wongstaal:hover{
+    background-image: url('../img/Women/wongstal-info.png');
+}
+#jenniferdoudna {
+    background-image: url('../img/Women/jenniferdoudna.png');
+}
+#jenniferdoudna:hover {
+    background-image: url('../img/Women/jenniferdoudna-info.png');
+    
 }

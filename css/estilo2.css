@@ -1,0 +1,179 @@
+.info-contenido {
+    color: #FFE5EA;
+    display: inline-block;
+    width: 25%;
+    height: 400px;
+    position: relative;
+    margin: 0;
+    vertical-align: top;
+}
+#picbox{
+    background-color: #FFE5EA;
+    color: black;
+    width: 25%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+#picbox >h1{
+    display:block;
+    transform: rotate(-90deg);
+    font-family:'Hammersmith One',sans-serif;
+    position: absolute;
+    padding: 0;
+    margin-block-end: 70px;
+    margin-inline-start:-70px;
+    bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+        
+}
+h2{
+    margin-block-start: 0cm;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #FFE5EA;
+    margin: 0 10px;
+}
+  
+
+#lista {
+    text-align: left;
+    line-height: 200%;
+    font-family: 'Gafata',serif;
+    margin-top: 20px;
+    color: #FFE5EA;
+    margin-left: -6px;
+}
+#fotojennifer{
+display: inline-block;
+width: 75%;
+background-image: url('../img/Jennifer/3840.jpg');
+height: 400px;
+background-size: cover;
+background-position: top;
+}
+
+#fotojennifer >img {
+    height: 400px;
+}
+
+#fotojennifer2{
+    background-image: url('../img/Jennifer/Jennifer2.jpg');
+    display: inline-block;
+    height: 350px;
+    border-top: 25px solid #FFE5EA;
+    border-bottom: 25px solid #FFE5EA;
+    background-size: cover;
+    background-position: center;
+    width: 95%;
+  
+    
+}
+#infobox {
+    border-top: 2px solid #FFE5EA;
+    border-left: 2px solid #FFE5EA;
+    border-bottom: 2px solid #FFE5EA;
+    border-right: 2px solid #FFE5EA;
+    width: 23%;
+    height: 396px;
+    margin-left: 8px;
+
+}
+#personalinfo {
+    border: none;
+    padding-top: 5px;
+}
+
+#lista2 {
+    list-style-type: none;
+    text-align: left;
+    padding: 0px;
+    margin-left: 10px;
+    font-family: 'Martel',sans-serif;
+    line-height: 250%;
+    font-weight: bold;
+    font-size: 16px;
+    color: #cac6c7;
+}
+span
+{
+    color: #FFE5EA;
+    font-family: 'Martel', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.infofacts{
+    color: #FFE5EA;
+    display: inline-block;
+    height: 200px;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+
+#funfacts {
+    background-color: #FFE5EA;
+    color: black;
+    width: 25%;
+    height: 250px;
+    position: relative;
+    display: inline-block;
+    margin-left: 0px;
+
+}
+#funfacts >h1 {
+    color: black;
+    font-family: 'Hammersmith One',sans-serif;
+    font-size: 35px;
+    padding-top: 30px;
+    border-bottom: 4px solid black ;
+    margin: 50px;
+
+}
+#funfacts2 {
+    color: black;
+    border: solid 2px #FFE5EA ;
+    width: 73%;
+    height: 246px;
+    position: relative;
+    display: inline-block;
+    margin-left: 4px;   
+}
+
+.icons {
+    vertical-align: middle;
+    width: 25%;
+    display: inline-block; 
+}
+.icons > img {
+    width: 40%;
+    margin-top: 45px;
+}
+.icons > p {
+    color: #FFE5EA;
+    margin: 20px 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.socmed {
+    vertical-align: middle;
+    width: 10%;
+    display: inline-block;
+    color: #cac6c7;
+    height: 200px; 
+}
+#follow {
+    font-family:'Rouge Script', cursive;
+    color: #FFE5EA;
+    margin-top: 30px;
+    font-size: 30px; 
+}
